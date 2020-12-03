@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+
+}
+
+h1 {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+#text-input {
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    padding: 1rem;
+}
+
+#btn-translate {
+    margin: 1rem 0;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+
+#output-div {
+    display: block;
+    border: 1px solid;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    width: 100%;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+
+footer a {
+    color: black;
+}
