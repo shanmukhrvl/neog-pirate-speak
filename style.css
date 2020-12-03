@@ -1,3 +1,10 @@
+:root {
+    --gold: #F59E0B;
+    --black: #27272A;
+    --medium-gray: #D6D3D1;
+    --off-white: #F3F4F6;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -7,12 +14,21 @@ html {
 }
 
 body {
-
+    background-color: var(--off-white);
 }
 
 h1 {
     text-align: center;
     padding: 0.5rem;
+    background: var(--black);
+    color: var(--gold);
+    border: 0.5rem solid var(--medium-gray);
+}
+
+.svg-image {
+    max-width: 250px;
+    margin: auto;
+    display: block;
 }
 
 .container {
@@ -49,6 +65,9 @@ footer {
     text-align: center;
     width: 100%;
     padding: 1rem;
+    background: var(--black);
+    color: var(--gold);
+    border: 0.5rem solid var(--medium-gray);
 }
 
 footer p {
@@ -58,5 +77,5 @@ footer p {
 }
 
 footer a {
-    color: black;
+    color: var(--gold);
 }
