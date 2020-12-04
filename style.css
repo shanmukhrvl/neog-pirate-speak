@@ -52,6 +52,10 @@ h1 {
     color: var(--gold);
 }
 
+.container h3 {
+    margin-top: 0;
+}
+
 #output-div {
     display: block;
     border: 1px solid;
